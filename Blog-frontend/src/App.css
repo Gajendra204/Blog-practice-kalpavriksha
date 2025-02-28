@@ -1,0 +1,117 @@
+body {
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff; 
+  margin-top: 40px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+form {
+  background: #2a2a2a;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 600px;
+  margin: 40px;
+  border: 1px solid #444; 
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #555;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #333;
+  color: #e0e0e0;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 800px;
+  margin: 45px;
+  padding: 20px;
+}
+
+.blog-post {
+  background: #2a2a2a;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  border: 1px solid #444; 
+}
+
+.blog-post h2 {
+  margin-top: 0;
+  color: #007bff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.blog-post p {
+  color: #cccccc;
+  margin: 15px 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.blog-post .actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.blog-post button.edit {
+  background-color: #ffc107;
+  color: #1a1a1a;
+}
+
+.blog-post button.edit:hover {
+  background-color: #e0a800;
+}
+
+.blog-post button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.blog-post button.delete:hover {
+  background-color: #c82333;
+}
+
+
+
+

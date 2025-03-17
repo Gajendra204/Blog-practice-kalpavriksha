@@ -10,7 +10,6 @@ export const register = async (req: Request, res: Response): Promise<void> => {
   const { username, email, password } = req.body;
   console.log('Request body:', req.body);
 
-  // Validate input
   if (!username || !email || !password) {
     res.status(400).json({ message: 'All fields are required' });
     return;
